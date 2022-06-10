@@ -11,7 +11,7 @@ variable "error_message" {
 }
 
 variable "python_program" {
-  default     = "python"
+  default     = "python3"
   description = "Python executable to call errorcheck with"
   type        = string
 }
